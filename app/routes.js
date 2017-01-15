@@ -19,7 +19,9 @@ module.exports = router;
 router.get('/', mainController.showHome);
 
 //maybe for other page
-router.use('/assets', assetsController.presentAssets);
+router.use('/assets', function(req, res, next) {
+  assetsController.getAssetData(req.body.assetaddress)
+});
 
 
 router.get('/input', inputController.getAddress);
