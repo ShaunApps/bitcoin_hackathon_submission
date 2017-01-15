@@ -21,6 +21,7 @@
       <th>Unit Price</th>
       <th>Asset Amount</th>
       <th>Dollar Amount</th>
+      <th>Shekel Amount</th>
     </tr>
   </thead>
 
@@ -31,6 +32,7 @@
           <td><%= asset.unit_price %></td>
           <td><%= asset.asset_amount %></td>
           <td>$<%= asset.unit_price * asset.asset_amount %></td>
+          <td><%= (asset.unit_price * asset.asset_amount) * 3.82 %></td>
       </tr>
   <% } %>
   </tbody>
