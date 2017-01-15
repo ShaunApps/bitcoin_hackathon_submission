@@ -37,7 +37,7 @@ module.exports = {
         { name: 'XCP',
           unit_price: 1.96375,
           asset_amount: 250.00000000 },
-        { name: 'RarePepe',
+        { name: 'Pepe Cash',
           unit_price: 0.0000200385,
           asset_amount: 1209.32588510 }
         ];
