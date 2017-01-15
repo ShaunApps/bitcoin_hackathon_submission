@@ -47,9 +47,6 @@ module.exports = {
       res.render('pages/assets', {assets: dummyData});
 
 
-
-
-
     }
 
 }
